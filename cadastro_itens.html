@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel CRUD - F1</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-4">
+        <div class="container">
+            <a class="navbar-brand fw-bold text-danger" href="index.html">🏎️ CRUD ADMIN</a>
+            <a href="index.html" class="btn btn-outline-light btn-sm">Voltar para Home</a>
+        </div>
+    </nav>
+
+    <div class="container mb-5">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card p-3 shadow-sm">
+                    <h4 id="crud-titulo" class="text-secondary">Adicionar Piloto</h4>
+                    <form id="form-crud-item">
+                        <input type="hidden" id="item-id">
+                        <div class="mb-2">
+                            <label class="form-label">Nome do Piloto</label>
+                            <input type="text" id="item-nome" class="form-control" required>
+                        </div>
+                        <div class="mb-2">
+                            <label class="form-label">Escuderia / Equipe</label>
+                            <input type="text" id="item-equipe" class="form-control" required>
+                        </div>
+                        <div class="mb-2">
+                            <label class="form-label">Descrição</label>
+                            <textarea id="item-descricao" class="form-control" rows="3" required></textarea>
+                        </div>
+                        <div class="mb-2">
+                            <label class="form-label">URL da Imagem</label>
+                            <input type="text" id="item-imagem" class="form-control" required>
+                        </div>
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" id="item-destaque" class="form-check-input">
+                            <label class="form-check-label">Por em destaque no Carrossel</label>
+                        </div>
+                        <button type="submit" class="btn btn-success w-100" id="btn-salvar-item">Salvar Item</button>
+                        <button type="button" class="btn btn-secondary w-100 mt-2" id="btn-cancelar-edicao" style="display:none;">Cancelar Edição</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="col-md-8">
+                <div class="card p-3 shadow-sm">
+                    <h4 class="text-secondary mb-3">Grid Cadastrado</h4>
+                    <div class="table-responsive">
+                        <table class="table table-hover align-middle">
+                            <thead class="table-dark">
+                                <tr>
+                                    <th>Imagem</th>
+                                    <th>Nome</th>
+                                    <th>Equipe</th>
+                                    <th>Ações</th>
+                                </tr>
+                            </thead>
+                            <tbody id="tabela-itens-corpo">
+                                </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

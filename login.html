@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | F1 Hub</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&family=Space+Grotesk:wght@400;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="main-header">
+        <div class="header-container">
+            <a href="index.html" class="logo">F1<span>HUB</span></a>
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="index.html#secao-equipes">Escuderias</a></li>
+                    <li><a href="favoritos.html" data-menu-favoritos>Favoritos</a></li>
+                    <li><a href="admin.html" data-menu-admin>Cadastro</a></li>
+                    <li><a href="login.html" data-menu-login>Login</a></li>
+                    <li><button type="button" class="nav-button" data-menu-logout>Sair</button></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="login-page" class="page-shell">
+        <section class="form-card">
+            <span class="hero-tag">Acesso</span>
+            <h1>Entrar no F1 Hub</h1>
+            <form id="form-login" class="stacked-form">
+                <label>
+                    Login
+                    <input id="login-usuario" type="text" autocomplete="username" required>
+                </label>
+                <label>
+                    Senha
+                    <input id="senha-usuario" type="password" autocomplete="current-password" required>
+                </label>
+                <button type="submit" class="btn-primary">Entrar</button>
+            </form>
+            <p class="form-helper">Ainda não tem conta? <a href="cadastro-usuario.html">Cadastrar usuário</a></p>
+            <p id="mensagem-login" class="status-message"></p>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <p>Fórmula 1 Hub &copy; 2026 | Projeto Acadêmico</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

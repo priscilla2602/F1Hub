@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fórmula 1 Hub | Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&family=Space+Grotesk:wght@400;600&display=swap"
+        rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="main-header">
+        <div class="header-container">
+            <a href="index.html" class="logo">F1<span>HUB</span></a>
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="index.html#secao-equipes">Escuderias</a></li>
+                    <li><a href="index.html#secao-estatisticas">Telemetria</a></li>
+                    <li><a href="favoritos.html" data-menu-favoritos>Favoritos</a></li>
+                    <li><a href="admin.html" data-menu-admin>Cadastro</a></li>
+                    <li><a href="login.html" data-menu-login>Login</a></li>
+                    <li><button type="button" class="nav-button" data-menu-logout>Sair</button></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+ <main id="main-home">
+        
+        <div id="carouselF1Destaques" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                
+                <div class="carousel-item active" data-bs-interval="5000">
+                    <section class="hero-banner">
+                        <div class="hero-overlay"></div>
+                        <div class="hero-content">
+                            <span class="hero-tag">Temporada Atualizada 2026</span>
+                            <h2>Velocidade. Engenharia. Emoção pura.</h2>
+                            <p>Explore as estatísticas, os perfis técnicos e os segredos das escuderias e dos pilotos que desafiam
+                                os limites da física a mais de 300 km/h.</p>
+                            <a href="#secao-equipes" class="btn-primary">Ver Grid Dinâmico</a>
+                        </div>
+                    </section>
+                </div>
+
+                <div class="carousel-item" data-bs-interval="5000">
+                    <section class="hero-banner" id="hero-banner-slide2">
+                        <div class="hero-overlay"></div>
+                        <div class="hero-content">
+                            <span class="hero-tag" id="hero-tag-slide2">Destaque Técnico</span>
+                            <h2 id="hero-titulo-slide2">Carregando Escuderia...</h2>
+                            <p id="hero-desc-slide2">Carregando detalhes de telemetria da equipe líder da temporada atual...</p>
+                            <a href="#" id="hero-link-slide2" class="btn-primary">Análise Técnica</a>
+                        </div>
+                    </section>
+                </div>
+
+            </div>
+            
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselF1Destaques"
+                data-bs-slide="prev" style="z-index: 3;">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselF1Destaques"
+                data-bs-slide="next" style="z-index: 3;">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Próximo</span>
+            </button>
+        </div>
+
+        <section id="secao-equipes" class="grid-section">
+            <div class="section-title-block">
+                <h2>Escuderias Oficiais</h2>
+                <p>O poder tecnológico por trás das marcas construtoras do circo da Fórmula 1.</p>
+            </div>
+
+            <form class="search-form" role="search">
+                <input id="campo-pesquisa" type="search" placeholder="Pesquisar por nome ou descrição"
+                    aria-label="Pesquisar escuderias">
+            </form>
+
+            <div id="grid-equipes" class="cards-layout-grid"></div>
+            <p id="mensagem-lista-vazia" class="empty-state" hidden>Nenhuma escuderia encontrada.</p>
+        </section>
+
+        <section id="secao-estatisticas" class="grid-section section-alt-bg">
+            <div class="section-title-block">
+                <h2>Telemetria do Grid</h2>
+                <p>Visualização avançada com dados.</p>
+            </div>
+            <div id="grafico-equipes" class="chart-grid"></div>
+        </section>
+
+        <section id="secao-autora" class="grid-section">
+            <div class="section-title-block">
+                <h2>Informações da Autora</h2>
+            </div>
+            <div class="author-panel">
+                <img src="https://avatars.githubusercontent.com/u/81877690?v=4" alt="Foto de Priscilla Louzada Nesio">
+                <div>
+                    <h3>Priscilla Louzada Nesio</h3>
+                    <p>Projeto acadêmico de desenvolvimento web sobre Fórmula 1.</p>
+                    <p><strong>Curso:</strong> Engenharia de Software</p>
+                    <p><strong>Turno:</strong> Manhã </p>
+                    <p><strong>GitHub:</strong> <a href="https://github.com/priscilla2602" target="_blank" rel="noreferrer">github.com/priscilla2602</a></p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <p>&copy; 2026 Fórmula 1 Hub. Desenvolvido para fins acadêmicos avançados.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>

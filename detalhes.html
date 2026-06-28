@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Análise Técnica | F1 Hub</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&family=Space+Grotesk:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="main-header">
+        <div class="header-container">
+            <a href="index.html" class="logo">F1<span>HUB</span></a>
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="index.html#secao-equipes">Escuderias</a></li>
+                    <li><a href="favoritos.html" data-menu-favoritos>Favoritos</a></li>
+                    <li><a href="admin.html" data-menu-admin>Cadastro</a></li>
+                    <li><a href="login.html" data-menu-login>Login</a></li>
+                    <li><button type="button" class="nav-button" data-menu-logout>Sair</button></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="details-wrapper">
+        <div id="wrapper-detalhes-conteudo">
+            <div class="details-grid-layout">
+
+                <div class="details-media-zone">
+                    <div class="details-image-frame">
+                        <img id="detalhe-foto" src="" alt="Carregando...">
+                    </div>
+                </div>
+
+                <div class="details-data-zone">
+                    <div class="details-heading-row">
+                        <span class="hero-tag">Telemetria & Perfil</span>
+                        <button id="btn-favorito-detalhe" class="favorite-btn favorite-detail" type="button"
+                            aria-label="Marcar favorito">&#9825;</button>
+                    </div>
+                    <h1 id="detalhe-nome">Carregando...</h1>
+                    <div class="title-line"></div>
+
+                    <h3>Especificações Técnicas</h3>
+                    <div id="detalhe-ficha"></div>
+
+                    <div class="biography-block">
+                        <h3>História e Trajetória</h3>
+                        <p id="detalhe-bio">Carregando histórico detalhado...</p>
+                    </div>
+
+                    <div id="secao-pilotos-vinculados">
+                        <h3>Pilotos Oficiais desta Escuderia</h3>
+                        <div id="grid-pilotos-vinculados" class="cards-layout-grid"></div>
+                    </div>
+
+                    <div class="action-row">
+                        <a href="index.html" class="btn-secondary">Voltar à Página Anterior</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <footer class="main-footer">
+        <p>Fórmula 1 Hub &copy; 2026 | Projeto Acadêmico</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

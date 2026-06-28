@@ -1,0 +1,422 @@
+{
+  "usuarios": [
+    {
+      "id": "187cb7e5-e097-4224-8bc7-b610c855e2b1",
+      "login": "admin",
+      "senha": "123",
+      "nome": "Administrador do Sistema",
+      "email": "admin@f1hub.com",
+      "admin": true
+    },
+    {
+      "id": "ec37c83d-4b7f-458d-9e10-3fda7d37cd3e",
+      "login": "user",
+      "senha": "123",
+      "nome": "Usuário Comum",
+      "email": "user@f1hub.com",
+      "admin": false
+    }
+  ],
+  "favoritos": [],
+  "equipes": [
+    {
+      "id": "e1",
+      "nome": "Red Bull Racing",
+      "imagem": "red-bull-racing-logo-1.jpg",
+      "categoria": "Equipes",
+      "detalles": {
+        "base": "Milton Keynes, Reino Unido",
+        "chefe": "Christian Horner",
+        "motor": "Honda RBPT",
+        "titulos": "6 Campeonatos de Construtores",
+        "historia": "Sediada em Milton Keynes, Inglaterra. Fundada no final de 2004 após a compra da antiga equipe Jaguar, a Red Bull Racing transformou-se rapidamente numa força dominante no esporte, combinando engenharia de ponta com uma filosofia jovem e ousada."
+      }
+    },
+    {
+      "id": "e2",
+      "nome": "Ferrari",
+      "imagem": "logo-da-ferrari.webp",
+      "categoria": "Equipes",
+      "detalles": {
+        "base": "Maranello, Itália",
+        "chefe": "Frédéric Vasseur",
+        "motor": "Ferrari",
+        "titulos": "16 Campeonatos de Construtores",
+        "historia": "A equipe mais tradicional e antiga da história da F1. Fundada por Enzo Ferrari, compete desde o campeonato inaugural de 1950. O Cavallino Rampante carrega o maior legado do automobilismo mundial."
+      }
+    },
+    {
+      "id": "e3",
+      "nome": "Mercedes",
+      "imagem": "Mercedes-F1-Logo-7.png",
+      "categoria": "Equipes",
+      "detalles": {
+        "base": "Brackley, Reino Unido",
+        "chefe": "Toto Wolff",
+        "motor": "Mercedes",
+        "titulos": "8 Campeonatos de Construtores",
+        "historia": "Retornou ao esporte como equipe de fábrica em 2010. Estabeleceu uma era de dominância histórica incontestável na era dos motores híbridos, conquistando 8 títulos mundiais de construtores consecutivos."
+      }
+    },
+    {
+      "id": "e4",
+      "nome": "McLaren",
+      "imagem": "mclaren-logo-2024.jpg",
+      "categoria": "Equipes",
+      "detalles": {
+        "base": "Woking, Reino Unido",
+        "chefe": "Andrea Stella",
+        "motor": "Mercedes",
+        "titulos": "8 Campeonatos de Construtores",
+        "historia": "Criada pelo lendário piloto Bruce McLaren em 1963. É a segunda equipe mais antiga do grid e moldou a história do esporte através de inovações tecnológicas e parcerias icônicas."
+      }
+    },
+    {
+      "id": "e5",
+      "nome": "Racing Bulls",
+      "imagem": "Logotipo_da_RB_F1_Team.png",
+      "categoria": "Equipes",
+      "detalles": {
+        "base": "Faenza, Itália",
+        "chefe": "Laurent Mekies",
+        "motor": "Honda RBPT",
+        "titulos": "Nenhum",
+        "historia": "Originada da antiga Minardi e posteriormente Toro Rosso/AlphaTauri. O time baseado em Faenza atua de forma estratégica no desenvolvimento e refinamento técnico de jovens talentos."
+      }
+    },
+    {
+      "id": "e6",
+      "nome": "Haas",
+      "imagem": "Haas_F1_Team_Logo.svg.png",
+      "categoria": "Equipes",
+      "detalles": {
+        "base": "Kannapolis, EUA",
+        "chefe": "Ayao Komatsu",
+        "motor": "Ferrari",
+        "titulos": "Nenhum",
+        "historia": "Estreou no grid em 2016 como a única operação de propriedade majoritariamente americana, utilizando um modelo de parceria técnica otimizada com a Scuderia Ferrari."
+      }
+    },
+    {
+      "id": "e7",
+      "nome": "Aston Martin",
+      "imagem": "Aston_Martin_F1_Team_logo_2024.jpg",
+      "categoria": "Equipes",
+      "detalles": {
+        "base": "Silverstone, Reino Unido",
+        "chefe": "Mike Krack",
+        "motor": "Mercedes",
+        "titulos": "Nenhum",
+        "historia": "Herdeira das instalações da clássica Jordan e Force India. A marca britânica de luxo retornou ao campeonato com investimentos em infraestrutura ultra-moderna em Silverstone."
+      }
+    },
+    {
+      "id": "e8",
+      "nome": "Williams",
+      "imagem": "logo-da-williams-equipe-da-formula-1-1644967520034_v2_615x300.jpg",
+      "categoria": "Equipes",
+      "detalles": {
+        "base": "Grove, Reino Unido",
+        "chefe": "James Vowles",
+        "motor": "Mercedes",
+        "titulos": "9 Campeonatos de Construtores",
+        "historia": "Fundada por Sir Frank Williams e Patrick Head em 1977. Tornou-se uma das maiores gigantes independentes do esporte, acumulando uma herança lendária de títulos mundiais."
+      }
+    },
+    {
+      "id": "e9",
+      "nome": "Audi",
+      "imagem": "Audi_F1_Team_Logo (1).webp",
+      "categoria": "Equipes",
+      "detalles": {
+        "base": "Hinwil, Suíça",
+        "chefe": "Mattia Binotto",
+        "motor": "Audi",
+        "titulos": "Nenhum",
+        "historia": "A montadora premium alemã estruturou sua entrada oficial na principal categoria do automobilismo assumindo o controle operacional da tradicional Sauber, trazendo tecnologia de ponta alemã."
+      }
+    },
+    {
+      "id": "e10",
+      "nome": "Alpine",
+      "imagem": "Alpine_logo.png",
+      "categoria": "Equipes",
+      "detalles": {
+        "base": "Enstone, Reino Unido",
+        "chefe": "Oliver Oakes",
+        "motor": "Renault",
+        "titulos": "2 Campeonatos de Construtores",
+        "historia": "Representa a divisão de alta performance do Grupo Renault. A equipe combina o conhecimento de engenharia de chassis baseada em Enstone com o desenvolvimento de motores em Viry."
+      }
+    }
+  ],
+  "pilotos": [
+    {
+      "id": "p1",
+      "equipeId": "e1",
+      "nome": "Max Verstappen",
+      "subtitulo": "Campeão dominante.",
+      "imagem": "max.jpg",
+      "categoria": "Pilotos",
+      "detalles": {
+        "numero": "1",
+        "pais": "Países Baixos",
+        "titulos": "3 Vezes Campeão Mundial",
+        "biografia": "Piloto holandês, multicampeão mundial conhecido por seu estilo agressivo e ritmo implacável em qualquer pista."
+      }
+    },
+    {
+      "id": "p2",
+      "equipeId": "e1",
+      "nome": "Isaac Hadjar",
+      "subtitulo": "Agressivo veloz.",
+      "imagem": "isack.jpg",
+      "categoria": "Pilotos",
+      "detalles": {
+        "numero": "6",
+        "pais": "França",
+        "titulos": "Nenhum",
+        "biografia": "Jovem talento vindo das categorias de base da Red Bull, conhecido por sua pilotagem destemida e muita velocidade bruta."
+      }
+    },
+    {
+      "id": "p3",
+      "equipeId": "e3",
+      "nome": "Lewis Hamilton",
+      "subtitulo": "Lenda da Fórmula 1.",
+      "imagem": "lewis.jpg",
+      "categoria": "Pilotos",
+      "detalles": {
+        "numero": "44",
+        "pais": "Reino Unido",
+        "titulos": "7 Vezes Campeão Mundial",
+        "biografia": "Estatisticamente um dos maiores recordistas de todos os tempos do esporte, com mais de 100 vitórias e poles na carreira."
+      }
+    },
+    {
+      "id": "p4",
+      "equipeId": "e2",
+      "nome": "Charles Leclerc",
+      "subtitulo": "Rápido e agressivo.",
+      "imagem": "charles.jpg",
+      "categoria": "Pilotos",
+      "detalles": {
+        "numero": "16",
+        "pais": "Mônaco",
+        "titulos": "Nenhum",
+        "biografia": "O prodígio monegasco e principal nome da Scuderia Ferrari, mestre em voltas rápidas de classificação."
+      }
+    },
+    {
+      "id": "p5",
+      "equipeId": "e4",
+      "nome": "Lando Norris",
+      "subtitulo": "Veloz e carismático.",
+      "imagem": "norris.jpg",
+      "categoria": "Pilotos",
+      "detalles": {
+        "numero": "4",
+        "pais": "Reino Unido",
+        "titulos": "Nenhum",
+        "biografia": "Líder técnico na McLaren, Norris consolidou-se como um dos pilotos mais rápidos e conscientes da nova geração."
+      }
+    },
+    {
+      "id": "p6",
+      "equipeId": "e4",
+      "nome": "Oscar Piastri",
+      "subtitulo": "Frio e calculista.",
+      "imagem": "oscar.jpg",
+      "categoria": "Pilotos",
+      "detalles": {
+        "numero": "81",
+        "pais": "Austrália",
+        "titulos": "Nenhum",
+        "biografia": "Com uma mente extremamente calma sob pressão, o jovem australiano impressionou o mundo pelo seu amadurecimento precoce."
+      }
+    },
+    {
+      "id": "p7",
+      "equipeId": "e3",
+      "nome": "George Russell",
+      "subtitulo": "Talento em ascensão.",
+      "imagem": "russel.jpg",
+      "categoria": "Pilotos",
+      "detalles": {
+        "numero": "63",
+        "pais": "Reino Unido",
+        "titulos": "Nenhum",
+        "biografia": "Piloto focado e muito técnico, assumindo um papel de liderança essencial na evolução das flechas de prata."
+      }
+    },
+    {
+      "id": "p8",
+      "equipeId": "e3",
+      "nome": "Kimi Antonelli",
+      "subtitulo": "Jovem promessa.",
+      "imagem": "kimi.jpg",
+      "categoria": "Pilotos",
+      "detalles": {
+        "numero": "12",
+        "pais": "Itália",
+        "titulos": "Nenhum",
+        "biografia": "Fenômeno do kart e das categorias júnior, chega ao topo do automobilismo cercado de expectativas gigantescas."
+      }
+    },
+    {
+      "id": "p9",
+      "equipeId": "e8",
+      "nome": "Alex Albon",
+      "subtitulo": "Confiável ágil.",
+      "imagem": "albon.jpg",
+      "categoria": "Pilotos",
+      "detalles": {
+        "numero": "23",
+        "pais": "Tailândia",
+        "titulos": "Nenhum",
+        "biografia": "O pilar técnico da Williams, elogiado no paddock por sua capacidade de extrair ótimos resultados com carros intermediários."
+      }
+    },
+    {
+      "id": "p10",
+      "equipeId": "e2",
+      "nome": "Carlos Sainz",
+      "subtitulo": "Estratégico inteligente.",
+      "imagem": "carlos.jpg",
+      "categoria": "Pilotos",
+      "detalles": {
+        "numero": "55",
+        "pais": "Espanha",
+        "titulos": "Nenhum",
+        "biografia": "Conhecido como um 'operador estratégico', Sainz estuda as corridas perfeitamente de dentro do cockpit para vencer."
+      }
+    },
+    {
+      "id": "p11",
+      "equipeId": "e5",
+      "nome": "Liam Lawson",
+      "subtitulo": "Jovem agressivo.",
+      "imagem": "beb27524bc311f98e0cf9aba39874dfa.jpg",
+      "categoria": "Pilotos",
+      "detalles": {
+        "numero": "30",
+        "pais": "Nova Zelândia",
+        "titulos": "Nenhum",
+        "biografia": "O neozelandês provou seu valor substituindo titulares em situações complexas com muita personalidade e ritmo agressivo."
+      }
+    },
+    {
+      "id": "p13",
+      "equipeId": "e7",
+      "nome": "Fernando Alonso",
+      "subtitulo": "Veterano genial.",
+      "imagem": "alonso.jpg",
+      "categoria": "Pilotos",
+      "detalles": {
+        "numero": "14",
+        "pais": "Espanha",
+        "titulos": "2 Vezes Campeão Mundial",
+        "biografia": "O piloto mais experiente da história da F1, continuando competitivo em altíssimo nível com astúcia e garra incomparáveis."
+      }
+    },
+    {
+      "id": "p14",
+      "equipeId": "e7",
+      "nome": "Lance Stroll",
+      "subtitulo": "Irregular competitivo.",
+      "imagem": "stroll.jpg",
+      "categoria": "Pilotos",
+      "detalles": {
+        "numero": "18",
+        "pais": "Canadá",
+        "titulos": "Nenhum",
+        "biografia": "Capaz de ótimas exibições em pistas molhadas e circuitos de rua, busca maior consistência ao longo do ano."
+      }
+    },
+    {
+      "id": "p15",
+      "equipeId": "e10",
+      "nome": "Esteban Ocon",
+      "subtitulo": "Combativo firme.",
+      "imagem": "ocon.jpg",
+      "categoria": "Pilotos",
+      "detalles": {
+        "numero": "31",
+        "pais": "França",
+        "titulos": "Nenhum",
+        "biografia": "Um competidor aguerrido que não deixa espaços na pista, conhecido por defender posições ao extremo."
+      }
+    },
+    {
+      "id": "p16",
+      "equipeId": "e6",
+      "nome": "Oliver Bearman",
+      "subtitulo": "Jovem consistente.",
+      "imagem": "oliver.jpg",
+      "categoria": "Pilotos",
+      "detalles": {
+        "numero": "87",
+        "pais": "Reino Unido",
+        "titulos": "Nenhum",
+        "biografia": "Surpreendeu a todos ao pontuar logo em sua estreia inesperada na categoria principal, mostrando uma calma incomum."
+      }
+    },
+    {
+      "id": "p17",
+      "equipeId": "e6",
+      "nome": "Nico Hülkenberg",
+      "subtitulo": "Sólido experiente.",
+      "imagem": "nico.jpg",
+      "categoria": "Pilotos",
+      "detalles": {
+        "numero": "27",
+        "pais": "Alemanha",
+        "titulos": "Nenhum",
+        "biografia": "Veterano altamente respeitado pela precisão técnica e velocidade impressionante em sessões de classificação."
+      }
+    },
+    {
+      "id": "p18",
+      "equipeId": "e9",
+      "nome": "Gabriel Bortoleto",
+      "subtitulo": "Talento promissor.",
+      "imagem": "gabriel.jpg",
+      "categoria": "Pilotos",
+      "detalles": {
+        "numero": "33",
+        "pais": "Brasil",
+        "titulos": "Nenhum",
+        "biografia": "Grande esperança do automobilismo brasileiro, conquistando títulos de base com inteligência e ritmo dominante."
+      }
+    },
+    {
+      "id": "p19",
+      "equipeId": "e10",
+      "nome": "Pierre Gasly",
+      "subtitulo": "Rápido consistente.",
+      "imagem": "gasly.jpg",
+      "categoria": "Pilotos",
+      "detalles": {
+        "numero": "10",
+        "pais": "França",
+        "titulos": "Nenhum",
+        "biografia": "Vencedor de Grande Prêmio, o francês alia consistência técnica com ótimas leituras de corrida em momentos caóticos."
+      }
+    },
+    {
+      "id": "p20",
+      "equipeId": "e8",
+      "nome": "Franco Colapinto",
+      "subtitulo": "Ousado promissor.",
+      "imagem": "franco.jpg",
+      "categoria": "Pilotos",
+      "detalles": {
+        "numero": "43",
+        "pais": "Argentina",
+        "titulos": "Nenhum",
+        "biografia": "Trouxe de volta a paixão argentina ao grid com ultrapassagens ousadas e rápida adaptação aos carros da categoria."
+      }
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

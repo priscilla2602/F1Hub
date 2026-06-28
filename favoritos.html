@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favoritos | F1 Hub</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&family=Space+Grotesk:wght@400;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="main-header">
+        <div class="header-container">
+            <a href="index.html" class="logo">F1<span>HUB</span></a>
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="index.html#secao-equipes">Escuderias</a></li>
+                    <li><a href="favoritos.html" data-menu-favoritos>Favoritos</a></li>
+                    <li><a href="admin.html" data-menu-admin>Cadastro</a></li>
+                    <li><a href="login.html" data-menu-login>Login</a></li>
+                    <li><button type="button" class="nav-button" data-menu-logout>Sair</button></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="favoritos-page" class="page-shell wide-page">
+        <section class="grid-section">
+            <div class="section-title-block">
+                <h1>Minhas Escuderias Favoritas</h1>
+                <p>Itens marcados pelo usuário logado.</p>
+            </div>
+            <div id="grid-favoritos" class="cards-layout-grid"></div>
+            <p id="mensagem-favoritos" class="empty-state"></p>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <p>Fórmula 1 Hub &copy; 2026 | Projeto Acadêmico</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
